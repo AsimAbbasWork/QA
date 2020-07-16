@@ -1,0 +1,176 @@
+
+A = Multiple Feature beanches - Devloper_1's code
+B = multiple Feature branches - Devloper_2's code
+C = multiple Feature branches - Devloper_3's code
+D = Develop branch - Code Previously Merged Into Develope without the latest Code in this sprint
+E = Develop branch - Code previously merged in to develope + latest code from All developers merged in this sprint
+F = Master branch - Released code 
+
+Scenrio 1: Beginning of Sprint 1
+
+	A1 = Do not exist
+	A2 = Do not exist
+	A3 = Do not exist
+	B1 = Do not exist
+	B2 = Do not exist
+	B3 = Do not exist
+	C1 = Do not exist
+	C2 = Do not exist
+	C3 = Do not exist
+	D = Empty 
+	E = Empty
+	F = Empty
+
+Scenrio 2: Few Days Into Sprint 1 Before Any Developers Completed Any Tickets
+
+	A1 = Feature Branch 'Feature_1' = D + Feature_1
+	A2 = Feature Branch 'Feature_2' = D + Feature_2
+	A3 = Feature Branch 'Feature_3' = D + Feature_3
+	B1 = Feature Branch 'Feature_4' = D + Feature_4
+	B2 = Feature Branch 'Feature_5' = D + Feature_5
+	B3 = Feature Branch 'Feature_6' = D + Feature_6
+	C1 = Feature Branch 'Feature_7' = D + Feature_7
+	C2 = Feature Branch 'Feature_8' = D + Feature_8
+	C3 = Feature Branch 'Feature_9' = D + Feature_9
+	D = Empty
+	E = Empty
+	F = Master = Empty
+
+Scenrio 3: Few Days Into Sprint 1 After Devloper_1 completes 'Feature_1' 
+
+	A1 = Feature Branch 'Feature_1' = D + Feature_1 + E
+	A2 = Feature Branch 'Feature_2' = D + Feature_2
+	A3 = Feature Branch 'Feature_3' = D + Feature_3
+	B1 = Feature Branch 'Feature_4' = D + Feature_4
+	B2 = Feature Branch 'Feature_5' = D + Feature_5
+	B3 = Feature Branch 'Feature_6' = D + Feature_6
+	C1 = Feature Branch 'Feature_7' = D + Feature_7
+	C2 = Feature Branch 'Feature_8' = D + Feature_8
+	C3 = Feature Branch 'Feature_9' = D + Feature_9
+	D = Master = Empty
+	E = A1
+	F = Master = Empty
+
+Scenrio 4: Few Days Into Sprint 1 After Devloper_2 completes 'Feature_4' 
+
+	A1 = Feature Branch 'Feature_1' = D + Feature_1 + E
+	A2 = Feature Branch 'Feature_2' = D + Feature_2
+	A3 = Feature Branch 'Feature_3' = D + Feature_3
+	B1 = Feature Branch 'Feature_4' = D + Feature_4 + E
+	B2 = Feature Branch 'Feature_5' = D + Feature_5
+	B3 = Feature Branch 'Feature_6' = D + Feature_6
+	C1 = Feature Branch 'Feature_7' = D + Feature_7 
+	C2 = Feature Branch 'Feature_8' = D + Feature_8
+	C3 = Feature Branch 'Feature_9' = D + Feature_9
+	D = Master = Empty
+	E = A1 + B1
+	F = Master = Empty
+
+Scenrio 4: End of Sprint 1 After All developers have completed all Features
+
+	A1 = Feature Branch 'Feature_1' = D + Feature_1 + E
+	A2 = Feature Branch 'Feature_2' = D + Feature_2 + E
+	A3 = Feature Branch 'Feature_3' = D + Feature_3 + E
+	B1 = Feature Branch 'Feature_4' = D + Feature_4 + E
+	B2 = Feature Branch 'Feature_5' = D + Feature_5 + E
+	B3 = Feature Branch 'Feature_6' = D + Feature_6 + E
+	C1 = Feature Branch 'Feature_7' = D + Feature_7 + E
+	C2 = Feature Branch 'Feature_8' = D + Feature_8 + E
+	C3 = Feature Branch 'Feature_9' = D + Feature_9 + E
+	D = Master = Empty
+	E = A1 + A2 + A3 + B1 + B2 + B3 + C1 + C2 + C3
+	F = Master = Empty
+
+Scenrio 5: Testing is passed in E and code is released to Prod
+
+	A1 = Feature Branch 'Feature_1' = D + Feature_1 + E
+	A2 = Feature Branch 'Feature_2' = D + Feature_2 + E
+	A3 = Feature Branch 'Feature_3' = D + Feature_3 + E
+	B1 = Feature Branch 'Feature_4' = D + Feature_4 + E
+	B2 = Feature Branch 'Feature_5' = D + Feature_5 + E
+	B3 = Feature Branch 'Feature_6' = D + Feature_6 + E
+	C1 = Feature Branch 'Feature_7' = D + Feature_7 + E
+	C2 = Feature Branch 'Feature_8' = D + Feature_8 + E
+	C3 = Feature Branch 'Feature_9' = D + Feature_9 + E
+	D = Master
+	E = A1 + A2 + A3 + B1 + B2 + B3 + C1 + C2 + C3
+	F = Master
+
+Scenrio 6: Beginning of Sprint 2
+
+	A4 = Feature Branch 'Feature_10' = D + Feature_10
+	A5 = Feature Branch 'Feature_11' = D + Feature_11
+	A6 = Feature Branch 'Feature_12' = D + Feature_12
+	B4 = Feature Branch 'Feature_13' = D + Feature_13
+	B5 = Feature Branch 'Feature_14' = D + Feature_14
+	B6 = Feature Branch 'Feature_15' = D + Feature_15
+	C4 = Feature Branch 'Feature_16' = D + Feature_16
+	C5 = Feature Branch 'Feature_17' = D + Feature_17
+	C6 = Feature Branch 'Feature_18' = D + Feature_18
+	D = Master
+	E = Does not exist
+	F = Master
+
+Scenrio 7: Few days into Sprint 2 when Developer_1 completes Feature_10
+
+	A4 = Feature Branch 'Feature_10' = D + Feature_10 + E
+	A5 = Feature Branch 'Feature_11' = D + Feature_11
+	A6 = Feature Branch 'Feature_12' = D + Feature_12
+	B4 = Feature Branch 'Feature_13' = D + Feature_13
+	B5 = Feature Branch 'Feature_14' = D + Feature_14
+	B6 = Feature Branch 'Feature_15' = D + Feature_15
+	C4 = Feature Branch 'Feature_16' = D + Feature_16
+	C5 = Feature Branch 'Feature_17' = D + Feature_17
+	C6 = Feature Branch 'Feature_18' = D + Feature_18
+	D = Master
+	E = A4 
+	F = Master
+
+Scenrio 8: Few days into Sprint 2 when Developer_2 completes Feature_13
+
+	A4 = Feature Branch 'Feature_10' = D + Feature_10 + E
+	A5 = Feature Branch 'Feature_11' = D + Feature_11
+	A6 = Feature Branch 'Feature_12' = D + Feature_12
+	B4 = Feature Branch 'Feature_13' = D + Feature_13 + E
+	B5 = Feature Branch 'Feature_14' = D + Feature_14
+	B6 = Feature Branch 'Feature_15' = D + Feature_15
+	C4 = Feature Branch 'Feature_16' = D + Feature_16
+	C5 = Feature Branch 'Feature_17' = D + Feature_17
+	C6 = Feature Branch 'Feature_18' = D + Feature_18
+	D = Master
+	E = A4 + B4
+	F = D
+
+Scenrio 9: FEnd of sprint when all developers complete all Features
+
+	A4 = Feature Branch 'Feature_10' = D + Feature_10 + E
+	A5 = Feature Branch 'Feature_11' = D + Feature_11 + E
+	A6 = Feature Branch 'Feature_12' = D + Feature_12 + E
+	B4 = Feature Branch 'Feature_13' = D + Feature_13 + E
+	B5 = Feature Branch 'Feature_14' = D + Feature_14 + E
+	B6 = Feature Branch 'Feature_15' = D + Feature_15 + E
+	C4 = Feature Branch 'Feature_16' = D + Feature_16 + E
+	C5 = Feature Branch 'Feature_17' = D + Feature_17 + E
+	C6 = Feature Branch 'Feature_18' = D + Feature_18 + E
+	D = Master
+	E = A4 + A5 + A6 + B4 + B5 + B6 + C4 + C5 + C6
+	F = Master + E
+
+
+Developer to start work on new Feature_1 Branch:
+git clone $Reposiroty_url.git (get complete repository from remote location to local machine)
+git switch develop (switch current branch to develop branch)
+git checkout -b $Branch_name (D+ :create new branch with desired name based off of current develop branch)
+git fetch --all --prune (update all branches on local machine with code on remote branches)
+git add --all (D+Feature_1 : add all code in current feature branch to be pushed to remote)
+git commit -m "add code for Feature_1 branch" (add a commit message)
+git status (check if there are any files not added to stage for pushing to remote)
+git pull (D + Feature_1 +E merge current state of develop branch INTO feature branch)
+git push (push current feature branch to remote feature branch)
+
+Developer will create pull request to merge feature branch into develop
+Git admin will merge the feature branch code into develop after the feature branch tests have passed
+Git admin will finally merge the develop branch into master after all regression tests have passed at end of sprint
+
+
+

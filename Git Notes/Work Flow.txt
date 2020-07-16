@@ -1,0 +1,31 @@
+cd repository
+git init
+git remote add origin https://github.com/AsimAbbasWork/repository.git
+Create File
+git add --all
+git commit -m "This is new File"
+git push origin master
+
+git fetch --all --prune
+git pull --all
+git branch develop
+git checkout develop
+git add --all
+git commit -m "This is develop branch"
+git push origin develop
+
+git fetch --all --prune
+git pull --all
+git branch local_branch
+git checkout local_branch
+working on ticket then add in local branch
+git add --all
+git commit -m "This is local branch"
+git push origin local_branch
+then go to website and make pull request then merge ticket on develop branch then delete local_branch
+
+Some more Commands
+git branch (to check all local branches and current branch)
+git branch -a (to check all remote branch)
+git branch -D branch_name (to delete local branch)
+git push origin -delete branch_name (to delete remote branch)

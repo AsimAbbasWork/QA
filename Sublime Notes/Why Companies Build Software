@@ -1,0 +1,98 @@
+Why Companies Build Software
+Reason 01 : For Client (Like Software House)
+Reason 02 : For Business (Like Facebook, Google)
+
+Software Some Important Function : 
+ Software Develpment Life Cycle
+  1 Planing
+   1 Concept
+   2 Market Research (User Available OR Not)
+   3 Requirement Gathering : We can make project without this but our project will not be successfull
+     Types Of Requirement Gathering.
+      1 Business RG BRD(Business Req Doc) : Like Company Logo, Name , only Available In Particular Country
+      2 Functional Req : FRD(Functional Req Doc)(Like Adition, Sub, Multiplication)
+      3 Design Req DRD (Design Req Doc): Design Software How's its Look like 
+      4 TRD (Technical Req Doc) : Available in Different Region, support different Things.
+
+  2 Analysis 
+  3 Design
+  4 Implementation
+  5 Testing and Integration
+  6 Maintenance
+
+
+ Frame Work Methodology
+  1 Water Fall Process
+    At a time Only Pne Process Run (Planing , Analysis etc) Whole Application Complete At a time
+  2 Agile Process 
+    Commonly Used, In-parallel process run (Planing, Analysis etc) 
+    1 Scrum (work in Sprint)
+    2 Kanban
+  3 V-Model
+
+  Example : Comapany 
+                1 Board of Advisor(Guardianship) 
+                (CEO, Chief Financial Officer, Chief Technology Officer)
+                    CTO
+                    Head of Engineering(Front-E)
+                        Vp of Engineering
+                    Head of Quality Assurance
+                        Vp of QA
+                    Head of Products
+                        VP of Products
+
+Product Engineer (Requirements Gathering (From CEO), Requirement Clearfication(For Developers or Quality Engineer))
+Developers (For Code)
+Quality Engineer (For Testing)
+
+Types of Software Application
+ By-Network
+  Stand alone (calculator)
+  WLan (Wide Area Local Net)
+  Cloud Application (Gmail)
+  Hybrid Application (Google Drive, Drop Box)
+  Iot Internet of Things
+ By-Industry
+  Telecom
+  Health care
+  Banking/fintech
+  E/M-Commerce 
+ By-Consumer Type
+  Application Business to Business(B2bB) or Business to Cosumer(B2C)
+  Enterprise Application
+  Consumer Application
+ By-Device Type
+  Desktop Application 
+  Mobile Application
+  Hybrid Application
+ Un-known Type
+  Software as a service saas
+  platform as Service paas
+  Infrastructure as Service iaas
+ By-Application Layer
+  Single tier Apllcation
+  2 Tier Application
+  N Tier Application
+
+
+Application Development Under the Hood
+  Front-End Development
+      HTML 5, CSS3, JAVA Script, Node.js, React js 
+      Responsive Design, Usability, Intuitive, Compability
+  Back-End Development
+      Java, Spring, Python, django, flask, C
+      SQL, Pymongo
+      Power BI, AHA!
+    DataBase Data Analytis
+         Relational 
+           Mysql, SAP, Oracle
+         Non Relational
+           Mongodb, Hadoop, Kafka, Big Table, Canssandra
+         Data Ware House ETL
+           Informatica
+    API
+        Rest
+        Soap
+        Xml/RPC
+        Synchronous
+        A-Synchronous

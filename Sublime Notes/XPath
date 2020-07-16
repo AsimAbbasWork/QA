@@ -1,0 +1,15 @@
+destination_txt = //div[@id="select2-drop-mask"]/following::div/input
+visa = //ul[@class="nav row-reverse "]/li[5]/a
+cars = //ul[@class="nav row-reverse "]/li[4]/a
+tour = //ul[@class="nav row-reverse "]/li[3]/a
+flights = //ul[@class="nav row-reverse "]/li[2]/a
+hotel = //ul[@class="nav row-reverse "]/li[1]/a
+
+
+
+
+
+
+"//div[@class='dropdown dropdown-login dropdown-tab']//a[@id='dropdownCurrency']"
+
+"//ul[@class='nav row-reverse ']/li[2]/a[@class='text-center flights']"

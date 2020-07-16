@@ -1,0 +1,123 @@
+use to check git version installed on your system
+	git --version
+use to configure git username name and email 
+	git config --global user.name "tabishishtiaq"
+    git config --global user.email "tabishishtiaq5@gmail.com"
+use to install git with MacPorts
+	sudo port selfupdate
+use to search latest git ports and variants on system
+	port search git
+    port variants git	    	
+
+what is github
+	github is only a cloud or remote storage
+
+what is git?
+	source code system/version control system
+		it is change management system provides tool to track changes 
+		categories
+			centralized respository
+				remotely controlled
+				single storage system
+			distributed respository	
+				distributed storage system
+	examples 
+	 mercurial,git, e.t.c			
+
+	indiviual or team works
+	continously make changes 
+
+ 	it is a control system . A control system can be defined as a system which controls other system
+gitclient 
+
+hub 
+ use to manuplate git respository
+
+what is branch
+ branch can be represent as small part of a development
+
+
+Creating branch
+	use to create new branch in git resporitory
+		git branch here type branch name to be created
+
+Listing a branches 
+	use to view list of branches from git resporitory
+		git branch
+		git branch --list
+listing a remote branches		 
+	use to view list of remote branches
+		git branch -a	
+
+Renaming branch name
+	use to rename the branch name 
+		git branch -m branch name 
+accesing remote respositories
+	use to add remote respository copy to local resporitory
+		git remote add new-remote-repo
+	use to push copy of local respository to a remote respoitory
+		git push <new-remote-repo>	
+	use to work with remote branches of git resporitory
+	before checkouts to remote branch fetch the contents of branch
+		git fetch --all
+	use to reset the branchs to remote branch
+	git reset --hard origin/<branchname>		
+	
+
+
+Deleting Branches
+	use to delete any specific branch from git resporitory
+	git branch -d
+	use to delete branch permentley and its all unmerged and commits
+	git branch -D 
+	use to delete a remote branch
+		git push origin --delete branch name to be deleted
+		git push origin :branch name to be deleted	
+
+
+
+switching to branches
+	use to switch branches of git resporitory
+		git checkout here type branch name to switch it
+	switching and creating new branch directly	
+	use to create and switch to new branch immediately 	
+		git checkout -b <new branch name to be created>
+		git checkout -b <new-branch> <existing-branch>
+
+
+…or create a new repository on the command line
+
+echo "# tabishpractice1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tabishishtiaq/tabishpractice1.git
+git push -u origin master
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/tabishishtiaq/tabishpractice1.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+git checkout <remotebranch> origin/<remotebranch>
+cd folder name  where want to create resporitory
+mkdir mk directory in a folder
+touch
+git status
+git add .
+git add --all
+git commit -m ""
+git push -u origin
+
+use to create txt file
+	sublime filename.txt 
+

@@ -1,0 +1,33 @@
+Creating Local Repository
+	mkdir Repository
+	cd Repository
+	git init
+
+Link Remote Repository to Local Repository
+	git remote add origin "LINK"
+
+Pull Remote Repository Branches
+	git pull origin master
+	git pull origin develop
+
+Create local branch
+	git branch Branch_1
+	git pull origin develop
+	git checkout Branch_1
+
+Create txt File in Local Repository
+	File Name = file_1.txt
+
+Check Branch Status
+	git status
+
+Add Updated Files	
+	git add --all
+
+Commit on File	
+	git commit -m "This is new File"
+
+Push Branch in Remote Repository	
+	git push origin Branch_1
+
+Then go to Website To merge Branch_1 in ot Develop Branch

@@ -1,0 +1,27 @@
+Scenario 01 Ticket 01 
+		Create a txt file 
+		Write a comment
+		Push to a remote repository
+
+Scenario 02 Ticket 02 
+		Create a txt file 
+		Write a comment
+		Push to a remote repository
+
+Scenario 03 Ticket 03 
+		Create a txt file 
+		Write a comment
+		Push to a remote repository
+
+Scenario 04
+		Create Remote Repository
+		Create Local Repository
+		Link remote Repository to local repository
+		Create master branch
+		Create develop branch
+		Create local branch
+		Create txt file to local branch
+		Add txt file
+		Create commit
+		Push local branch in remote repository
+		Create pull request local branch to develop branch

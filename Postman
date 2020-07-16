@@ -1,0 +1,100 @@
+Tutorial Link = https://www.youtube.com/watch?v=juldrxDrSH0&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=1
+
+Postman
+	API Client
+		develop, test ,share, documents APIs
+
+	How To Create an API Request
+		Create new workspace.
+		Create new request (Give Request Name, then get link From Reqres Website)
+
+	How to run the request
+		Create Collection
+		After make request the copy link from reqres then paste on your collection then hit send button
+		
+	How to analyse response
+		Check Status ,Time Respones etc
+
+	What is Collection?
+		Group of Api Request
+		That can be stores and saved in logical arrangement
+	Variables 
+		WHAT :- Variables elements (Data Store) that can take different values.
+		WHY :- To Reuse value at multiple places, avoid repetition to avoid re-work when 
+		       value change.
+
+	How to get variables through scripts
+	How to set variables through scripts	
+
+		console.log("Hello World");  # To Print 
+
+		let urlvar = pm.variables.get("url"); # Make Variables
+		console.log("Value of url is = "+urlvar); # Print Variable
+
+		pm.variables.set("name","postman"); # Set Value
+		console.log(pm.variables.get("name")) # Get Value
+
+		let globalvar = pm.variables.get("Env"); # Get Variabl from global 
+		console.log(globalvar); 
+
+	What is Enviroment
+		Enviroment is a set of Key-Value pairs
+
+	How To Create Enviroment
+		Go to New Button Then Click on Enviroment then create enviroment with suitable name
+		make variable and give them value then select your enviroment to run to api 
+
+	How To use Script Snippets
+		Snippets :- Script Templates
+		Make new request then go to pre-request script then you can see on th right hand side there are some templates of script
+
+	How to Create First Test
+		Postman test are javascript code that is executedafter receving the response
+		Just go to test section which is in the request file the use snippet to send and check result.
+
+	How to Debug
+		Some Important Commands
+			console.log("hello world"); # Only Print
+			console.info("hello world"); # print as information
+			console.warn("hello world"); # print as waring
+			console.error("hello world"); # print as error
+
+	How to Run from command line (Newman)
+		How to run postmane request/test from command line
+		1.install node.js
+		2.install newman
+		3.export collection and run from command line
+
+	How too Create and manage workspace
+		Workspace is an area where you can group,organize and manage your collection
+		You Can add two workspace
+
+	Data Driven Testing -  how to use csv and json data files
+		Tutorial Number 15
+
+	How to run a collection remotely (with url)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

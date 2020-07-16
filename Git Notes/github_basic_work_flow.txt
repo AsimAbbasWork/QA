@@ -1,0 +1,178 @@
+common commands to be used in workflow for github depository
+	use to select folder 
+		command to be used
+			cd folder name
+	use to exit to home directory
+		command to be used
+			cd $home	
+	use to view directory folders
+		command to be used
+			ls
+	use to delete files 
+		command to be used
+			rm file name to be delete
+	use to delete file forcely
+		command to be used		
+			rm -f file to be delete forcely	
+
+	use to create git ignore file
+		command to be used 
+	 		sublime $HOME/.gitignore		
+
+	use to view list of branches 
+		commands to be used
+			git branch
+			git branch --list
+	use to view list of remote branches
+		command to be used
+			git branch -a
+	use to rename the branch name 
+		command to be used
+			git branch -m new branch name	
+	use to delete any specific branch from git resporitory
+		command to be delete
+			agit branch -d
+	use to delete branch permentley and its all unmerged and commits
+		command to be used
+			git branch -D 
+	use to delete a remote branch
+		command to be used
+			git push origin --delete branch name to be deleted
+			git push origin :branch name to be deleted								
+
+	use to fetch or update branches on local resporitory
+	command to be used
+		git fetch --all
+	use fetch or update deleted branches status on local resporitory
+		command to be used
+			git fetch --all --prune
+	uses to create pull request to develop branch in resporitory
+		command to be used
+			hub pull-request -b develop --no-edit --message "write a summary of reason for pull request here"		
+    uses to clone any resporitory to local resporitory remotley
+    	command to be used
+    		git clone https://github.com/link to be paste of resporitory
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+creating github hub to manuplate repository work flow
+	use to verify that you are at home directory
+		command to be used 
+			cd $home
+	use to view directory for choosing folder name
+		command to be used 
+			ls
+	use to choose directory folder 
+		command to be used
+			cd folder name	 			
+
+	use to create directory in a despository folder
+		command to be used
+			mkdir folder name
+	use to get access to despository to be add to github
+		command to be used
+			cd folder name
+	use to make get ready to be initilized for git
+		command to be used
+			git init
+	use to create git hub for remote depository when creating first time
+		command to be used
+			hub create
+
+Creating and Tracking files workflow
+	creating files work flow in depository to be tracked
+		use to create file in depository to be commit
+			command to be used
+				touch here type file name to be created
+		use to check unadded modified files
+			command to be used
+				git status
+		use to add unadded file to depository folder
+			command to used
+				git add --all
+		use to verify status of added file to depository
+			command to be used
+				git status
+		use to commit added modified files and despository
+			command to be used
+				git commit -m "text to enter for identification for commit"
+		use to push local depository to remote depository
+			command to be used
+				git push origin master
+
+
+
+
+
+Selecting local resporitory
+	selecting depository to be branched workflow
+		use to make verifed that status to be at home directory
+			command to be used
+				cd $home
+		use to select local folder name 
+			command to used
+				cd folder name
+		use to select local repository to be branched
+			command to be used
+		        cd folder name
+
+Creating branch in local resporitory
+	use to view lists of branches already available in resporitory
+		command to be used
+			git branch
+	use to create branch in local resporitory
+		git branch Enter name of branch
+    use to switching to new branch (important to switched branch where want to make commits before make commits to branches)
+    	command to be used
+    		git checkout branch name 
+    use to push new branch on existing respository on github
+    	command to be used 
+    		git push origin new branch name 		
+
+
+Creating and Tracking files workflow
+
+		use to create file in branch to be commit
+			command to be used
+				touch here type file name to be created
+		use to check unadded modified files
+			command to be used
+				git status
+		use to add unadded file to depository folder
+			command to used
+				git add --all
+		use to verify status of added file to depository
+			command to be used
+				git status
+		use to commit added modified files and branch despository
+			command to be used
+				git commit -m "text to enter for identification for commit"
+		use to push local depository to remote depository
+			command to be used
+				git push origin 
+
+Renaming Branch name 
+	use to rename current branch name 
+		command to be used 
+			git branch -m new branch name
+
+switching between branches
+	use to switching branches 
+		command to be used
+			git checkout branch name
+
+
+
+
+

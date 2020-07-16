@@ -1,0 +1,20 @@
+MySQL 
+
+What is Database?
+   Is a collection of data or information stored in a formet that can easily accessed.
+
+Example : Shopping List, Contact Number
+
+Database Management System (DBMS).
+   It is not actual Database but in order to create or manage database we need software application called database management system (DBMS)
+   We Can create mulitiple database in DBMS
+   We can Update, Delete, Insert etc in DBMS
+   Makes it easy to handle Large amount of data
+   Import/Export of data
+
+Types of Database Management System(DBMS)
+ 1.SQL(Structure Query Language)
+ 2.NoSQL(Not Only SQL)
+
+SQL
+   1.Relational Database

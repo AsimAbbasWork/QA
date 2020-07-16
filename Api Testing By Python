@@ -1,0 +1,27 @@
+Api Testing By Python
+	Required Packages
+		Request, json, jsonpath
+
+Working on
+	GET Request   https://reqres.in/api/users?page=2
+	Pick Respose
+	Display Response 
+		url = "https://reqres.in/api/users?page=2"
+		response = requests.get(url)
+		print(response.content)
+
+	Fetch Response Content
+
+		json_response = json.loads(response.text) 
+		#print(json_response) "Show in Json Format"
+		Fetch Value Using Json Path
+		pages = jsonpath.jsonpath(json_response,'total_pages') Fetching some values
+		print(pages[0]) "Print Value Which is in 0 index"
+		assert pages[0] == 2 "Comparer expected and actual Value"
+
+	Delete Resource
+		request.delete(url)
+
+	Write Test Cases
+		POST Request
+		PUT Request

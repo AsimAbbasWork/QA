@@ -1,0 +1,79 @@
+Stand Up 
+
+	What we do Yesterday:
+		learn how to create test cases
+		learn how to create text file in python
+		learn how to create random text in python text file
+		learn how to create string variable in python text file
+
+	What we do today:
+		learn how to create test execution report
+		learn how to archive or Delete test artifacts
+		learn how to make functions in functions(Nested Function)
+		learn how to create test case 02 for python text file
+
+	Blockage
+		Problem with execute the program under test with test data
+
+Date : 19-May-2020
+
+	What we do Yesterday:
+		Making test case Program
+		Learn how to make function in function(nested function)
+
+	What we do Today:
+		learning test cases 01 to 04 for python text file
+		Learning About assert and assert types in 
+
+Date : 30-May-2020
+
+	What we do Yesterday:
+		Revision Python Function
+		Learn Git Flow Concept
+		Learn Git Flow Commands
+
+	What we do Today:
+		Creating Branches in Git Flow
+		Complete git flow task
+
+	Blockage:
+		Creating Hub in Git Flow
+		
+Date : 02-June-2020
+
+	What we do Yesterday:
+		Learn to Create Repository in GitHub (Using Commands)
+		Learn to Create Branches in GitHub (Using Commands)
+		Learn to Merge Branches in Git Hub 
+
+	What we do Today:
+		Practice on GitHub Commands
+
+	Blockage:
+		Branch Feature_3 merge in develop branch but not show in develop branch
+
+Date : 07-June-2020
+
+	What we do Yesterday:
+		Learn to Create Repository in GitHub (Using Commands)
+		Learn to Create Branches in GitHub (Using Commands)
+		Learn to Merge Branches in Git Hub
+		Learn GitHub Work Flow 
+
+	What we do Today:
+		Working on Test Case No.5 (Python)
+
+	Blockage:
+		Test Case No.04
+		
+Date : 10-June-2020
+
+	What we do Yesterday:
+		InstaL selenium webdriver
+		Run Script
+
+	What we do Today:
+		Learn How to make Xpath(Watch All Videos)
+
+	Blockage:
+		Test Case No.05

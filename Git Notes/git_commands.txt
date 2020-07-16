@@ -1,0 +1,8 @@
+git config --global user.email "asimabbaswork@gmail.com"
+git config --global user.name "AsimAbbasWork"
+ssh-keygen -t rsa -b 4096 -C "asimabbaswork@gmail.com"
+
+git add . && git commit -m "It begins."
+git remote add origin https://github.com/AsimAbbasWork/test1.git
+git add . git commit "It begins."
+Set-ExecutionPolicy -Scope CurrentUser"

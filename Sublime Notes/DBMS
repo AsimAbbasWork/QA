@@ -1,0 +1,72 @@
+DBMS 
+1.Relation Database
+2.Non-Relation Database
+
+Relational Database
+    Example: Excel work Book(not necessary for relation)
+    Tables relationship (Primary or Forigen)
+     Relationship
+       one to one
+       one to many 
+       many to many
+
+ Following are the Constrain
+   NOT NULL
+     Ensures that a column cannot have a NULL value
+   UNIQUE 
+     Ensures that all values in a column are different
+   PRIMARY KEY 
+     A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+   FOREIGN KEY 
+     Uniquely identifies a row/record in another table
+   CHECK 
+     Ensures that all values in a column satisfies a specific condition
+   DEFAULT  
+     Sets a default value for a column when no value is specified
+   INDEX 
+     Used to create and retrieve data from the database very quickly
+
+   Primary Key 
+     Not null 
+     Unique
+     First Column
+     Auto Generate
+    Forigen Key 
+     Non Auto Generated
+     that refer to the Primary Key in Another Table
+
+SQL Chatogories
+ 1.DDL (Data Defination Language) : Insert, Create Commands (For Tables and Column)etc
+ 2.DMl (Data Manupulation Language) : Delete, Select, Insert Commands etc (For Values)
+ 3.DCL (Data Control Language) :  (Data Control)
+
+SQL Clause
+ Where
+ Having
+ Group by
+ Order by
+ Limit
+ Select
+ Distinct/Count 
+
+ Operators
+  Equal to 
+  Not equal to
+  Greater then
+  Less Then 
+  less then equal to 
+  greater then equal to 
+  is 
+  and
+  or
+  Between
+  in
+  not in
+
+ Mathematical Function
+  Sum
+  Average
+  Min
+  Max
+  Count
+
